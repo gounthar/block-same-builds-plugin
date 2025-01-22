@@ -1,28 +1,7 @@
 package org.jenkins.plugins.blocksamebuilds;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import org.apache.commons.io.FileUtils;
-import org.apache.commons.lang.SystemUtils;
-import org.jenkinsci.plugins.blocksamebuilds.CheckBuildJobProperty;
 import org.junit.Rule;
-import org.junit.Test;
 import org.jvnet.hudson.test.JenkinsRule;
-
-import hudson.model.BooleanParameterDefinition;
-import hudson.model.BooleanParameterValue;
-import hudson.model.FreeStyleBuild;
-import hudson.model.FreeStyleProject;
-import hudson.model.ParameterDefinition;
-import hudson.model.ParameterValue;
-import hudson.model.ParametersAction;
-import hudson.model.ParametersDefinitionProperty;
-import hudson.model.Result;
-import hudson.model.StringParameterDefinition;
-import hudson.model.StringParameterValue;
-import hudson.tasks.BatchFile;
-import hudson.tasks.Shell;
 
 public class CheckBuildPropertyTest {
 	@Rule
